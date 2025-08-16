@@ -156,4 +156,4 @@ const Courses: React.FC = () => {
   );
 };
 
-export default Skills;
+export default Courses;
