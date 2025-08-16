@@ -37,9 +37,13 @@ const About: React.FC = () => {
         >
           <motion.div 
             whileHover={{ scale: 1.05 }}
-            className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full flex items-center justify-center"
+            className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden"
           >
-            <User size={48} className="text-white" />
+            <img 
+              src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg" 
+              alt="Professional developer"
+              className="w-full h-full object-cover"
+            />
           </motion.div>
           <h1 className="text-5xl md:text-7xl font-bold mb-4">
             <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">

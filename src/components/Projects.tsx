@@ -191,15 +191,6 @@ const Projects: React.FC = () => {
 
                 <div className="flex gap-4">
                   <motion.a
-                    href={selectedProject.demoUrl}
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors"
-                  >
-                    <ExternalLink size={16} />
-                    Live Demo
-                  </motion.a>
-                  <motion.a
                     href={selectedProject.githubUrl}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
