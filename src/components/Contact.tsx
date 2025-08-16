@@ -73,9 +73,9 @@ const Contact: React.FC = () => {
               <h2 className="text-2xl font-bold text-white mb-6">Contact Information</h2>
               <div className="space-y-4">
                 {[
-                  { icon: Mail, label: "Email", value: "your.email@example.com", href: "mailto:your.email@example.com" },
+                  { icon: Mail, label: "Email", value: "surendhar010104@gmail.com", href: "mailto:surendhar010104@gmail.com" },
                   { icon: Phone, label: "Phone", value: "+1 (555) 123-4567", href: "tel:+15551234567" },
-                  { icon: MapPin, label: "Location", value: "San Francisco, CA", href: "#" }
+                  { icon: MapPin, label: "Location", value: "chennai", href: "#" }
                 ].map((item) => (
                   <motion.a
                     key={item.label}

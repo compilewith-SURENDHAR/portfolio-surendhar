@@ -16,45 +16,31 @@ const Experience: React.FC = () => {
   const experiences: ExperienceItem[] = [
     {
       id: 1,
-      title: "Senior Full Stack Developer",
-      company: "Tech Innovations Inc.",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
+      title: "Junior Engineer",
+      company: "MulticoreWare Inc.",
+      location: "chennai, India",
+      period: "Jan 2025 - Present",
       description: [
         "Led development of microservices architecture serving 100k+ users",
         "Implemented CI/CD pipelines reducing deployment time by 60%",
         "Mentored junior developers and conducted technical interviews",
         "Collaborated with cross-functional teams to deliver features on schedule"
       ],
-      technologies: ["React", "Node.js", "AWS", "Docker", "PostgreSQL"]
+      technologies: ["C", "Python", "Docker", "Linux", "Device Drivers", "Flask"]
     },
     {
       id: 2,
-      title: "Full Stack Developer",
-      company: "StartupCo",
-      location: "Austin, TX",
-      period: "2020 - 2022",
+      title: "Intern",
+      company: " Infinite Computer Solutions",
+      location: "Chennai, India",
+      period: "june 2024 - june 2024",
       description: [
         "Built responsive web applications using React and Redux",
         "Developed RESTful APIs with Express.js and MongoDB",
         "Optimized application performance resulting in 40% faster load times",
         "Participated in agile development processes and sprint planning"
       ],
-      technologies: ["React", "Redux", "Express.js", "MongoDB", "Jest"]
-    },
-    {
-      id: 3,
-      title: "Frontend Developer",
-      company: "Digital Agency",
-      location: "New York, NY",
-      period: "2018 - 2020",
-      description: [
-        "Created pixel-perfect UI components from design mockups",
-        "Implemented responsive designs for mobile and desktop platforms",
-        "Collaborated with designers to ensure consistent user experience",
-        "Maintained and updated legacy codebases"
-      ],
-      technologies: ["HTML5", "CSS3", "JavaScript", "jQuery", "Sass"]
+      technologies: ["GenAI", "MongoDB", "SQL", "API"]
     }
   ];
 

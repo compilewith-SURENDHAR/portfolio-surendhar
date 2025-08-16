@@ -19,30 +19,30 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React, Node.js, and MongoDB",
-      fullDescription: "A comprehensive e-commerce platform built with modern technologies. Features include user authentication, product catalog, shopping cart, payment integration, order management, and admin dashboard. Implements responsive design and follows best practices for security and performance.",
-      technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
+      title: "Mood Assessment and Evaluation of Virtual meetings",
+      description: "Application providing live feedback of participant's attentiveness",
+      fullDescription: " Uses facial emotion recognition and gaze detection to assess participants’ emotional state and attentiveness for  for virtual meeting optimization",
+      technologies: ["Deep Learning", "TensorFlow", "Python", "OpenCV", "Pandas"],
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg",
       demoUrl: "#",
       githubUrl: "#"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "Collaborative task management tool with real-time updates",
-      fullDescription: "A collaborative task management application that allows teams to organize, track, and manage their work efficiently. Features real-time synchronization, drag-and-drop functionality, deadline tracking, team collaboration, and detailed analytics dashboard.",
-      technologies: ["React", "Socket.io", "PostgreSQL", "Express"],
+      title: "Fitform- Exercise Analysis and Correction",
+      description: "Application that provides real-Time feedback on the Correctness of the exercise done",
+      fullDescription: " Utilizes computer vision and ML models to assess posture correctness by analyzing real-time webcam video , trained on a custom-labeled dataset, and provides instant feedback.",
+      technologies: ["Machine Learning", "TensorFlow/Keras", "Python", "OpenCV", "Mediapipe", "Pandas/Numpy"],
       image: "https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg",
       demoUrl: "#",
       githubUrl: "#"
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "Real-time weather data visualization with interactive maps",
-      fullDescription: "An interactive weather dashboard that provides real-time weather information with beautiful visualizations. Features include current weather conditions, 7-day forecasts, interactive maps, severe weather alerts, and location-based recommendations.",
-      technologies: ["Vue.js", "D3.js", "Weather API", "Mapbox"],
+      title: "Ren_Algorithm : PyPy",
+      description: "A PyPi(Python Package Index) that implements popular machine Learning Algorithm",
+      fullDescription: "A collection of machine learning algorithms implemented in Python. This package includes implementations for various supervised learning models such as XGBoost, Decision Trees, Random Forest, K-Nearest Neighbors (KNN), and Linear SVM, Linear regression, Logistics Regression . Each algorithm is organized in its own module for easy use and experimentation.",
+      technologies: ["Machine Learning Algorithms", "Regression", "Classification", "Python"],
       image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg",
       demoUrl: "#",
       githubUrl: "#"

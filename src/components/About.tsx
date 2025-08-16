@@ -53,13 +53,12 @@ const About: React.FC = () => {
 
         <motion.div variants={itemVariants} className="mb-8">
           <p className="text-xl md:text-2xl text-gray-300 mb-6 leading-relaxed">
-            A passionate <span className="text-blue-400">Full Stack Developer</span> who loves creating 
-            beautiful, functional, and user-friendly digital experiences.
+          A developer with skills in <span className="text-blue-400">Data Engineering</span> and <span className="text-blue-400">Software Development</span>, passionate about solving problems and 
+          to create impactful, data-driven solutions.
           </p>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
-            With a strong foundation in modern web technologies, I specialize in building 
-            scalable applications and bringing creative ideas to life through clean, 
-            efficient code.
+          With a strong foundation in Python, SQL, Data Engineering tools and modern software development, 
+          I enjoy designing solutions that are both reliable and performant.
           </p>
         </motion.div>
 

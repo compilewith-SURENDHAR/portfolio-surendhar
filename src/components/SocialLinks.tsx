@@ -6,7 +6,7 @@ const SocialLinks: React.FC = () => {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/compilewith-SURENDHAR',
       icon: Github,
       color: 'hover:bg-gray-700'
     },
@@ -18,13 +18,13 @@ const SocialLinks: React.FC = () => {
     },
     {
       name: 'LeetCode',
-      url: 'https://leetcode.com/yourusername',
+      url: 'https://leetcode.com/surendhar_',
       icon: Code,
       color: 'hover:bg-orange-600'
     },
     {
       name: 'Email',
-      url: 'mailto:your.email@example.com',
+      url: 'mailto:surendhar010104@gmail.com',
       icon: Mail,
       color: 'hover:bg-red-600'
     }

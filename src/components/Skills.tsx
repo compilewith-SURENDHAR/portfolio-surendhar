@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Skills: React.FC = () => {
   const skills = [
-    "React", "TypeScript", "Node.js", "PostgreSQL", "AWS", "Docker", 
+    "Python", "C", "Node.js", "PostgreSQL", "AWS", "Docker", 
     "MongoDB", "Next.js", "Python", "GraphQL", "React Native", "Figma",
     "JavaScript", "Express.js", "Redis", "Git", "Tailwind CSS", "Vue.js"
   ];
