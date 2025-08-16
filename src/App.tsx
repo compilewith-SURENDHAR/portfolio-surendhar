@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Courses from './components/Courses';
 import Resume from './components/Resume';
 import SocialLinks from './components/SocialLinks';
 
@@ -15,7 +16,7 @@ function App() {
   // Handle scroll to update active section
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'skills', 'experience', 'projects', 'contact'];
+      const sections = ['home', 'skills', 'experience', 'projects', 'courses', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -73,6 +74,11 @@ function App() {
         {/* Projects Section */}
         <section id="projects" className="min-h-screen">
           <Projects />
+        </section>
+
+        {/* Courses Section */}
+        <section id="courses" className="min-h-screen">
+          <Courses />
         </section>
 
         {/* Contact Section */}

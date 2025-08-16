@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { User, Code, Heart } from 'lucide-react';
+import { User, Download } from 'lucide-react';
 
 const About: React.FC = () => {
   const containerVariants = {
@@ -63,28 +63,24 @@ const About: React.FC = () => {
           </p>
         </motion.div>
 
-        <motion.div 
-          variants={itemVariants}
-          className="grid md:grid-cols-3 gap-6 mt-12"
-        >
-          {[
-            { icon: Code, title: "Clean Code", desc: "Writing maintainable and scalable solutions" },
-            { icon: User, title: "User Focus", desc: "Creating intuitive and accessible experiences" },
-            { icon: Heart, title: "Passion", desc: "Love for learning and continuous improvement" }
-          ].map((item, index) => (
-            <motion.div
-              key={index}
-              whileHover={{ scale: 1.05, y: -5 }}
-              className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10"
-            >
-              <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-blue-400 to-purple-400 rounded-lg flex items-center justify-center">
-                <item.icon size={24} className="text-white" />
-              </div>
-              <h3 className="text-lg font-semibold text-white mb-2">{item.title}</h3>
-              <p className="text-gray-400 text-sm">{item.desc}</p>
-            </motion.div>
-          ))}
+        <motion.div variants={itemVariants} className="mt-12">
+          <motion.button
+            whileHover={{ scale: 1.05, y: -2 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={() => {
+              // In a real application, this would link to your actual resume PDF
+              const link = document.createElement('a');
+              link.href = '#'; // Replace with actual resume PDF URL
+              link.download = 'Surendhar_K_Resume.pdf';
+              link.click();
+            }}
+            className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-200 flex items-center justify-center gap-3 mx-auto"
+          >
+            <Download size={20} />
+            Download Resume
+          </motion.button>
         </motion.div>
+
       </motion.div>
     </div>
   );

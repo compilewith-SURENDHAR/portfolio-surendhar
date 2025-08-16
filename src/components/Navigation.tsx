@@ -94,7 +94,7 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection, scrollToSection 
               }}
               className={`px-4 py-3 rounded-lg text-left transition-colors ${
                 activeSection === item.id
-                  ? 'text-blue-400 bg-blue-400/10'
+                  ? 'text-blue-400 bg-blue-400/20'
                   : 'text-gray-300 hover:text-white hover:bg-white/5'
               }`}
             >
