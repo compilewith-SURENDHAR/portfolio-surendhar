@@ -54,17 +54,17 @@ const Skills: React.FC = () => {
         >
           <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10">
             <div className="flex flex-wrap justify-center gap-4">
-              <motion.span
-                key={category}
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.9 + index * 0.1 }}
-                whileHover={{ scale: 1.1 }}
-                className="px-4 py-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-white rounded-full border border-white/10"
-              >
-                {category}
-              </motion.span>
-            ))}
+              {skills.map((skill, index) => (
+                <motion.span
+                  key={skill}
+                  variants={itemVariants}
+                  whileHover={{ scale: 1.1, y: -2 }}
+                  className="px-4 py-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-white rounded-full border border-white/10 hover:border-blue-400/30 transition-colors text-sm font-medium"
+                >
+                  {skill}
+                </motion.span>
+              ))}
+            </div>
           </div>
         </motion.div>
       </div>
@@ -73,5 +73,3 @@ const Skills: React.FC = () => {
 };
 
 export default Skills;
-  )
-}
