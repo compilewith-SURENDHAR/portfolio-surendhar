@@ -15,13 +15,27 @@ const Contact: React.FC = () => {
   const { register, handleSubmit, formState: { errors }, reset } = useForm<FormData>();
 
   const onSubmit = async (data: FormData) => {
-    // Simulate form submission
-    console.log('Form data:', data);
-    setIsSubmitted(true);
-    setTimeout(() => {
-      setIsSubmitted(false);
-      reset();
-    }, 3000);
+    try {
+      // Create mailto link with form data
+      const subject = encodeURIComponent(data.subject);
+      const body = encodeURIComponent(
+        `Name: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}`
+      );
+      const mailtoLink = `mailto:surendhar010104@gmail.com?subject=${subject}&body=${body}`;
+      
+      // Open default email client
+      window.location.href = mailtoLink;
+      
+      // Show success message
+      setIsSubmitted(true);
+      setTimeout(() => {
+        setIsSubmitted(false);
+        reset();
+      }, 3000);
+    } catch (error) {
+      console.error('Error sending email:', error);
+      alert('There was an error sending your message. Please try again or contact directly at surendhar010104@gmail.com');
+    }
   };
 
   const containerVariants = {

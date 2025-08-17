@@ -71,11 +71,12 @@ const About: React.FC = () => {
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => {
-              // In a real application, this would link to your actual resume PDF
               const link = document.createElement('a');
-              link.href = '#'; // Replace with actual resume PDF URL
+              link.href = '/surendhar_resume.pdf';
               link.download = 'Surendhar_K_Resume.pdf';
+              document.body.appendChild(link);
               link.click();
+              document.body.removeChild(link);
             }}
             className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-200 flex items-center justify-center gap-3 mx-auto"
           >
