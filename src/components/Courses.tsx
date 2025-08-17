@@ -16,39 +16,30 @@ const Courses: React.FC = () => {
   const courses: Course[] = [
     {
       id: 1,
-      title: "AWS Certified Solutions Architect",
-      provider: "Amazon Web Services",
+      title: "Data Analysis with Python",
+      provider: "Coursera",
       date: "2023",
-      description: "Comprehensive certification covering AWS cloud architecture, security, and best practices for scalable applications.",
-      certificateUrl: "#",
-      skills: ["AWS", "Cloud Architecture", "Security", "Scalability"]
+      description: "Comprehensive certification covering the fundamentals of data analysis covering EDA, and some Python libraries(Pandas, Numpy) used for it.",
+      certificateUrl: "https://www.coursera.org/account/accomplishments/verify/NDHBKU947FXA?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+      skills: ["Python", "Data Analysis", "EDA", "Data Pipelines", "Numpy", "Pandas"]
     },
     {
       id: 2,
-      title: "React - The Complete Guide",
-      provider: "Udemy",
-      date: "2022",
-      description: "In-depth course covering React fundamentals, hooks, context, testing, and advanced patterns for modern web development.",
-      certificateUrl: "#",
-      skills: ["React", "Redux", "Testing", "Hooks"]
+      title: "Introduction to Data Science in Python",
+      provider: "Coursera",
+      date: "2023",
+      description: "Covers common Python functionalities and features used fro data science that includes cleaning and processing of data.",
+      certificateUrl: "https://www.coursera.org/account/accomplishments/verify/QC9LTVPZ5ZHJ",
+      skills: ["Python", "File Handling", "Querying DataFrames"]
     },
     {
       id: 3,
-      title: "Full Stack Web Development",
+      title: "Complete Python Bootcamp",
       provider: "freeCodeCamp",
-      date: "2021",
-      description: "Comprehensive program covering frontend and backend development, databases, and deployment strategies.",
-      certificateUrl: "#",
-      skills: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"]
-    },
-    {
-      id: 4,
-      title: "Docker & Kubernetes Certification",
-      provider: "Docker Inc.",
-      date: "2023",
-      description: "Advanced containerization and orchestration techniques for modern application deployment and scaling.",
-      certificateUrl: "#",
-      skills: ["Docker", "Kubernetes", "DevOps", "Container Orchestration"]
+      date: "2022",
+      description: "Course that takes you through the complete Python Programming language.",
+      certificateUrl: "https://udemy-certificate.s3.amazonaws.com/pdf/UC-d95f1ec7-a0e5-4871-8e2a-beb0d2b5d6c9.pdf",
+      skills: ["Python", "Data Structures", "OOP Concepts", "python modules", "file handling"]
     }
   ];
 

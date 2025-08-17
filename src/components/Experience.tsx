@@ -21,12 +21,10 @@ const Experience: React.FC = () => {
       location: "chennai, India",
       period: "Jan 2025 - Present",
       description: [
-        "Led development of microservices architecture serving 100k+ users",
-        "Implemented CI/CD pipelines reducing deployment time by 60%",
-        "Mentored junior developers and conducted technical interviews",
-        "Collaborated with cross-functional teams to deliver features on schedule"
+        "A flask based Application that automates the device driver intgeration; bash scripting for automation and device driver development ",
+        "docker for multi-container Approach of the Application"
       ],
-      technologies: ["C", "Python", "Docker", "Linux", "Device Drivers", "Flask"]
+      technologies: ["C", "Python", "Docker", "Linux", "Device Drivers", "Flask", "git"]
     },
     {
       id: 2,
@@ -35,10 +33,8 @@ const Experience: React.FC = () => {
       location: "Chennai, India",
       period: "june 2024 - june 2024",
       description: [
-        "Built responsive web applications using React and Redux",
-        "Developed RESTful APIs with Express.js and MongoDB",
-        "Optimized application performance resulting in 40% faster load times",
-        "Participated in agile development processes and sprint planning"
+        "a user-friendly desktop application that allows users to interact with and query databases and documents",
+        " Leverage Generative AI to enable intelligent querying, data extraction, and analysis from MySQL/MongoDB databases and PDF documents"
       ],
       technologies: ["GenAI", "MongoDB", "SQL", "API"]
     }

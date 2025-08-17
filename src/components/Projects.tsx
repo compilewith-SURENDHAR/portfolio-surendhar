@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
       technologies: ["Deep Learning", "TensorFlow", "Python", "OpenCV", "Pandas"],
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg",
       demoUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/kvsghub/Emotion_Analysis"
     },
     {
       id: 2,
@@ -45,27 +45,27 @@ const Projects: React.FC = () => {
       technologies: ["Machine Learning Algorithms", "Regression", "Classification", "Python"],
       image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg",
       demoUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/compilewith-SURENDHAR/pypi-ren_algorithm"
     },
     {
       id: 4,
-      title: "Social Media Analytics",
-      description: "Comprehensive analytics platform for social media insights",
-      fullDescription: "A powerful analytics platform that helps businesses understand their social media performance across multiple platforms. Includes engagement tracking, audience insights, competitor analysis, and automated reporting features.",
-      technologies: ["React", "Python", "FastAPI", "Chart.js"],
+      title: "React-Native Apps",
+      description: "Simple Calculator and Quiz and Weather forecast Apps using React-Native",
+      fullDescription: "Simple Mobile applications developed using React-Native such as Calculator, Quiz app, Weather Forecast App",
+      technologies: ["React-Native", "Expo", "API", "JS"],
       image: "https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg",
       demoUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/compilewith-SURENDHAR/WeatherForecast"
     },
     {
       id: 5,
-      title: "AI-Powered Chatbot",
-      description: "Intelligent chatbot with natural language processing capabilities",
-      fullDescription: "An advanced chatbot system powered by machine learning algorithms that can understand and respond to user queries naturally. Features include sentiment analysis, multi-language support, integration with various platforms, and continuous learning capabilities.",
-      technologies: ["Python", "TensorFlow", "Flask", "NLP", "Docker"],
+      title: "ETL in Azure Platform",
+      description: "Created a ETL pipeline using Azure data Engineering tools",
+      fullDescription: "simple Data Engineering project where I leverage powerful technologies like Azure Data Factory, Azure Data Lake Gen 2, Databricks, Azure Synapse Analytics, and Apache Spark; that includes data Ingestion, storage, transformation and serving of data.",
+      technologies: ["Azure", "Azure datafactory", "Azure Data Lake", "pyspark", "Data Bricks", "synapse", "PowerBI"],
       image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg",
       demoUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/compilewith-SURENDHAR/azure-DE-Project-learning"
     }
   ];
 
