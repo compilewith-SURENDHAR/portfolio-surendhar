@@ -88,7 +88,7 @@ const Contact: React.FC = () => {
               <div className="space-y-4">
                 {[
                   { icon: Mail, label: "Email", value: "surendhar010104@gmail.com", href: "mailto:surendhar010104@gmail.com" },
-                  { icon: Phone, label: "Phone", value: "+1 (555) 123-4567", href: "tel:+15551234567" },
+                  { icon: Phone, label: "Phone", value: "+91 9361395309", href: "tel:+919361395309" },
                   { icon: MapPin, label: "Location", value: "chennai", href: "#" }
                 ].map((item) => (
                   <motion.a

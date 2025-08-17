@@ -13,7 +13,7 @@ const Skills: React.FC = () => {
     },
     {
       category: "Data Technologies",
-      skills: ["SQL", "Spark", "PySpark", "Databricks", "Airflow", "ETL Pipelines", "MySQL", "MongoDB"]
+      skills: ["SQL", "Spark", "PySpark", "Databricks", "Airflow", "ETL Pipelines", "Azure Data tools","MySQL", "MongoDB", "PowerBI"]
     }
   ];
 
