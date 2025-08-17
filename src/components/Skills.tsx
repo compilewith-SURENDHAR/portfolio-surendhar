@@ -63,15 +63,15 @@ const Skills: React.FC = () => {
           className="space-y-12"
         >
           {/* Main Skills */}
-          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10">
-            <h2 className="text-2xl font-bold text-white mb-6 text-center">Core Skills</h2>
+          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+            <h2 className="text-xl font-bold text-white mb-4 text-center">Core Skills</h2>
             <div className="flex flex-wrap justify-center gap-4">
               {mainSkills.map((skill, index) => (
                 <motion.span
                   key={skill}
                   variants={itemVariants}
                   whileHover={{ scale: 1.1, y: -2 }}
-                  className="px-6 py-3 bg-gradient-to-r from-blue-500/30 to-purple-500/30 text-white rounded-full border border-blue-400/30 hover:border-blue-400/50 transition-colors text-lg font-semibold"
+                  className="px-4 py-2 bg-gradient-to-r from-blue-500/30 to-purple-500/30 text-white rounded-full border border-blue-400/30 hover:border-blue-400/50 transition-colors text-base font-bold"
                 >
                   {skill}
                 </motion.span>
@@ -92,7 +92,7 @@ const Skills: React.FC = () => {
                   <motion.span
                     key={skill}
                     whileHover={{ scale: 1.05, y: -1 }}
-                    className="px-4 py-2 bg-gray-700/50 text-gray-300 rounded-lg border border-gray-600/30 hover:border-gray-500/50 transition-colors text-sm"
+                    className="px-4 py-2 bg-gray-700/50 text-gray-300 rounded-lg border border-gray-600/30 hover:border-gray-500/50 transition-colors text-sm font-semibold"
                   >
                     {skill}
                   </motion.span>

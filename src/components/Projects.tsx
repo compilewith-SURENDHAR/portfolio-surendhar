@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
       id: 1,
       title: "Mood Assessment and Evaluation of Virtual meetings",
       description: "Application providing live feedback of participant's attentiveness",
-      fullDescription: " Uses facial emotion recognition and gaze detection to assess participants’ emotional state and attentiveness for  for virtual meeting optimization",
+      fullDescription: " Uses facial emotion recognition and gaze detection to assess participants' emotional state and attentiveness for  for virtual meeting optimization",
       technologies: ["Deep Learning", "TensorFlow", "Python", "OpenCV", "Pandas"],
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg",
       demoUrl: "#",
@@ -121,13 +121,20 @@ const Projects: React.FC = () => {
               className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 cursor-pointer group hover:border-blue-400/30 transition-all duration-300"
             >
               <div className="flex items-center justify-between">
-                <div>
+                <div className="flex-1">
                   <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition-colors">
                     {project.title}
                   </h3>
                   <p className="text-gray-400 leading-relaxed">
                     {project.description}
                   </p>
+                </div>
+                <div className="ml-4 flex-shrink-0">
+                  <img 
+                    src={project.image}
+                    alt={`${project.title} logo`}
+                    className="w-12 h-12 rounded-lg object-cover"
+                  />
                 </div>
                 <div className="flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
                   <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
