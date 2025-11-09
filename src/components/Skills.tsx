@@ -5,11 +5,11 @@ const Skills: React.FC = () => {
   const skillCategories = [
     {
       category: "Programming",
-      skills: ["Python", "C", "Bash Scripting", "HTML & CSS"]
+      skills: ["Python", "Java", "Bash Scripting", "HTML & CSS"]
     },
     {
       category: "Tools and Technologies", 
-      skills: ["Git", "GitHub", "Flask", "Docker", "Linux", "REST API"]
+      skills: ["Git", "Flask", "Docker", "Linux", "REST API", "Machine Learning", "GenAi"]
     },
     {
       category: "Data Technologies",
