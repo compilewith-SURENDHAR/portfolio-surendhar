@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
       technologies: ["Machine Learning", "TensorFlow/Keras", "Python", "OpenCV", "Mediapipe", "Pandas/Numpy"],
       image: "https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg",
       demoUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/compilewith-SURENDHAR/FitForm-exercise_form_analysis"
     },
     {
       id: 3,
