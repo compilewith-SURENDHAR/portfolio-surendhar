@@ -95,7 +95,7 @@ const Projects: React.FC = () => {
       technologies: ["GenAI", "RAG", "Python", "Flask", "Gemini API", "FAISS for vector embeddings", "HTML"],
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg",
       demoUrl: "#",
-      githubUrl: "https://github.com/compilewith-SURENDHAR/DE-ETL-pipelines/tree/main/spotify-ETL-airflow"
+      githubUrl: "https://github.com/compilewith-SURENDHAR/chatbot-genai"
     },
   ];
 
