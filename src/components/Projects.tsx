@@ -87,6 +87,16 @@ const Projects: React.FC = () => {
       demoUrl: "#",
       githubUrl: "https://github.com/compilewith-SURENDHAR/DE-ETL-pipelines/tree/main/spotify-ETL-airflow"
     },
+    {
+      id: 8,
+      title: "Chatbot-GenAI",
+      description: "This project is a GenAI-based chatbot application with RAG implementaion",
+      fullDescription: "It allows users to upload documents or images, extract text using Google Gemini API, and interact with a chatbot that provides intelligent responses based on uploaded content. ",
+      technologies: ["GenAI", "RAG", "Python", "Flask", "Gemini API", "FAISS for vector embeddings", "HTML"],
+      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg",
+      demoUrl: "#",
+      githubUrl: "https://github.com/compilewith-SURENDHAR/DE-ETL-pipelines/tree/main/spotify-ETL-airflow"
+    },
   ];
 
   const containerVariants = {
