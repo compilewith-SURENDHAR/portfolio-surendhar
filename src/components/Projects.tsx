@@ -66,7 +66,27 @@ const Projects: React.FC = () => {
       image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg",
       demoUrl: "#",
       githubUrl: "https://github.com/compilewith-SURENDHAR/azure-DE-Project-learning"
-    }
+    },
+    {
+      id: 6,
+      title: "Earthquake data ETL pipeline using Databricks",
+      description: "automated ETL (Extract–Transform–Load) pipeline that fetches daily earthquake data from a public API",
+      fullDescription: " his project demonstrates how to build a complete ETL (Extract–Transform–Load) data pipeline in Databricks, using real-time earthquake data from the USGS Earthquake API. The pipeline is designed using the Medallion Architecture (Bronze–Silver–Gold), leverages Delta Lake, and is fully automated using Databricks Jobs & Workflows",
+      technologies: ["Databricks", "ETL pipeline", "Python", "SQL", "Pyspark", "Delta table", "Volumes", "catalogs", "jobs"],
+      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg",
+      demoUrl: "#",
+      githubUrl: "https://github.com/compilewith-SURENDHAR/DE-ETL-pipelines/tree/main/Earthquake_ETL_databricks"
+    },
+    {
+      id: 7,
+      title: "Spotify data ETL pipeline with Airflow",
+      description: "data pipeline for data from spotify API and orchestrated using Airflow",
+      fullDescription: "This project automates the process of fetching and storing Spotify’s latest album releases using a modern ELT (Extract–Load–Transform) architecture. The pipeline is built with Python, Airflow, and MySQL, making it modular, scalable, and easy to schedule.",
+      technologies: ["Databricks", "ETL pipeline", "Python", "SQL", "Pyspark", "Delta table", "Volumes", "catalogs", "jobs"],
+      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg",
+      demoUrl: "#",
+      githubUrl: "https://github.com/compilewith-SURENDHAR/DE-ETL-pipelines/tree/main/spotify-ETL-airflow"
+    },
   ];
 
   const containerVariants = {
